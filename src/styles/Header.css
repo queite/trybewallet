@@ -1,0 +1,20 @@
+header {
+  align-items: center;
+  background-color: rgb(8, 50, 33);
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.total-container {
+  display: flex;
+}
+
+.total-container p {
+  margin: 5px;
+}
+
+header h1 strong {
+  color: rgb(27, 198, 180);
+}

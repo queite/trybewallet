@@ -1,0 +1,41 @@
+.form-container {
+  background-color: rgb(76, 85, 92);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1%;
+}
+
+.form-container label {
+  font-size: 1.1rem;
+  margin: 3px;
+}
+
+.form-container input , select {
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-left: 5px;
+  max-width: 150px;
+  padding: 2px;
+}
+
+.form-container select:hover {
+  cursor: pointer;
+}
+
+.form-container button {
+  background-color: rgb(27, 198, 180);
+  border: none;
+  border-radius: 10px;
+  color: rgb(32, 37, 41);
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.form-container button:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 1s;
+}
+

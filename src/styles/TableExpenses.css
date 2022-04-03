@@ -1,0 +1,66 @@
+.table {
+  display: flex;
+  padding: 1%;
+}
+
+svg {
+  color: rgb(183, 235, 226);
+  font-size: 2rem;
+  margin: 5px;
+}
+
+svg:hover {
+  animation: lightsOn 1s infinite alternate;
+  cursor: pointer;
+}
+
+.table table {
+  border-collapse: separate;
+  border-spacing: 0;
+  color: #d6dbe4;
+  display: block;
+  font-size: 0.8rem;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.table table thead {
+  color: rgb(145, 180, 207);
+}
+
+.table table td , th {
+  border-left: 2px solid #595c62;
+  padding: 1em;
+}
+
+.table table td:first-of-type {
+  border-left: none;
+}
+
+.table table th:first-of-type {
+  border-left: none;
+}
+
+.table table .top td , .table table .dados:last-of-type td {
+  border-bottom: 2px solid #595c62;
+}
+
+@keyframes lightsOn {
+
+  from {
+    opacity: 0.2;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+/* Configuração em:
+https://pt.stackoverflow.com/questions/151841/css-formatar-uma-tabela */
+
+/* Animação svg:
+https://www.nickolasjoe.com/como-fazer-uma-animacao-css-glow-effect-efeito-de-brilho/ */
