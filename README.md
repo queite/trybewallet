@@ -29,7 +29,7 @@ The user should be able to:
 ---
 
 ### 🔗 Project Links
-* [Page](https://queite.github.io/solar-system/)
+* [Page]()
 
 ---
 
