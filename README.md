@@ -27,7 +27,7 @@ The user should be able to:
 ---
 
 ### 🔎 Project Preview
-<img src="./Wallet.gif" width="800" />
+![App Screenshot](./Wallet.gif)
 
 &nbsp;
 
